@@ -1,1 +1,8 @@
 This is an easy way to make a custom alert in Swift
+
+To setup:
+  1. Create a Swift viewcontroller in storyboard with a label and a button on the view
+  2. Set the beackground color to clear color on the viewcontroller
+  3. Add the Swift file to the viewcontroller and connect IBOutlets and IBAction
+  4. Add "alertText" under "root" in "info.plist"
+  5. Present the viewcontroller using the other Swift file
